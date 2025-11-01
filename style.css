@@ -1,0 +1,41 @@
+body { background-color: #17472c; color: #fff; font-family: 'Montserrat', sans-serif; }
+    .hero-section { background: url('https://images.unsplash.com/photo-1502209524164-acea93625a30?q=80&w=1600&auto=format&fit=crop&s=1') center/cover no-repeat; height: 90vh; position: relative; }
+    .hero-overlay { background: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(11,15,26,0.7)); position: absolute; top:0;left:0;right:0;bottom:0; }
+    .card-hover { transition: all 0.3s ease; overflow: hidden; }
+    .card-hover img { transition: transform 0.4s ease; }
+    .card-hover:hover img { transform: scale(1.1); }
+    .card-overlay { position: absolute; inset: 0; display: flex; justify-content: center; align-items: center; background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s; }
+    .card-hover:hover .card-overlay { opacity: 1; }
+    .footer-icons a { color: #aaa; margin-right: 12px; transition: color 0.2s; }
+    .footer-icons a:hover { color: #fff; }
+
+.custom-navbar {
+    background-color: #124c35 !important;
+}
+
+.btn-cari {
+  background-color: #184b2e;  /* hijau logo */
+  border-color: #184b2e;
+  color: #fff;
+}
+
+.btn-cari:hover {
+  background-color: #136c40;  /* hijau lebih terang saat hover */
+  border-color: #136c40;
+  color: #fff;
+}
+
+.text-cinema {
+    color: #17472c !important; 
+}
+
+.btn-cinema {
+    background-color: #184b2e;   
+    border-color: #184b2e;
+    color: #fff;
+}
+
+.btn-cinema:hover {
+    background-color: #136c40;  
+    border-color: #136c40;
+}
